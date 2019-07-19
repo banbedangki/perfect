@@ -28,4 +28,6 @@ app.all('*', (req, res) => {
   }
 });
 
-app.listen(7002);
+app.listen(7002, () => {
+  console.log('listen on port 7002');
+});
